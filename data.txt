@@ -1,0 +1,7 @@
+let arr=[1,2,3,4,5]
+console.log(arr)
+let student={'name':'lokesh','id':'1360','job':"tester"}
+student.salary=20000
+student.job="automation tester"
+delete student.id
+console.log(Object.entries(student))
